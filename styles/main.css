@@ -1,0 +1,345 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;800&family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+* {
+    margin: 0 0 0 0;
+}
+
+:root {
+    --primary-font: 'Montserrat';
+    --primary-color: rgb(196, 196, 196);
+    --title-color: rgb(3, 194, 48);
+    --secondary-color: rgb(63, 63, 63);
+    --web-title-color: rgb(28, 228, 38);
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Utility Design */
+
+.trm-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+
+.trm-img {
+    height: 96vh;
+}
+
+
+/* ----------------------
+     Navigation Styles
+------------------------- */
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 2rem;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-title {
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: .4rem 2rem;
+    color: var(--secondary-color);
+}
+
+.btn-chat {
+    color: var(--title-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1rem;
+    border: 1px solid var(--title-color);
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.btn-chat:hover {
+    background-color: var(--title-color);
+    border: 2px solid;
+    color: white;
+    border: 1px var(--title-color);
+}
+
+/* ------------------
+     Banner Styles
+--------------------- */
+.trm-bg-image {
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+}
+
+.trm-sub-title {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+}
+
+.trm-main-title {
+    color: var(--web-title-color);
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.feature-designation {
+    list-style: none;
+    color: var(--secondary-color);
+}
+
+.trm-designations a {
+    text-decoration: none;
+}
+
+.hr-1 {
+    border: 1px solid var(--primary-color);
+    margin-top: -5px;
+}
+
+.hr {
+    border: 1px solid var(--primary-color);
+    margin-top: -5px;
+}
+
+.btn-body {
+    padding-top: 1rem;
+}
+
+.btn-why {
+    margin-top: 1rem;
+    color: var(--title-color);
+
+
+}
+
+.btn-why:hover {
+    color: white;
+    background-color: var(--title-color);
+}
+
+/* About Me */
+.container-about {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10rem;
+    /* background-color: antiquewhite; */
+    /* background-image: url(/images/background-2.jpg); */
+    background-color: #f1fdf1;
+    background-size: cover;
+    object-fit: fill;
+
+}
+
+/* Card Design */
+
+.card-container {
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-item-grid {
+    background-color: rgb(241, 241, 241);
+    padding: 50px 60px;
+    width: 16rem;
+    height: 30rem;
+    border-radius: 20px;
+    transition: 0.5s;
+    box-shadow: 5px 2px 20px rgb(192, 192, 192);
+    border: 1px solid rgb(153, 153, 153);
+    rotate: 0deg;
+}
+
+.card-item-grid:hover {
+    background-color: rgb(230, 235, 230);
+    color: rgb(49, 49, 49);
+    rotate: -1deg;
+    border: 1px solid var(--title-color);
+}
+
+.card-img-con {
+    height: 15rem;
+    background-image: url(/images/card-profile.jpg);
+    background-size: cover;
+    object-fit: cover;
+    border: 2px solid var(--title-color);
+    box-shadow: 5px 10px 5px #cecdcd;
+    rotate: 1deg;
+
+}
+
+.card-text-con {}
+
+.card-text-con p {
+    padding-top: 3rem;
+
+}
+
+.card-text-con h5 {
+    color: var(--title-color);
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.card-text-con a {
+    text-decoration: none;
+    background-color: #cecdcd;
+    padding: 0 1rem;
+    opacity: 0.5;
+}
+
+.names-field {
+    margin-top: 20px;
+}
+
+
+/* Skills Styles */
+.skill-con {
+    margin: auto;
+    height: 90vh;
+    text-align: center;
+    width: 60%;
+    padding-top: 5rem;
+}
+
+.skill-con h1 {
+    font-size: 45px;
+    padding-bottom: 1rem;
+}
+
+.skill-con p{
+    color: var(--secondary-color);
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding-top: 4rem;
+
+}
+
+.skill {
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--title-color);
+    box-shadow: 5px 10px 10px #cecdcd;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background-color: var(--title-color);
+    cursor: pointer;
+}
+
+.skill h1 {
+    font-size: 22px;
+    color: white;
+    line-height: 2rem;
+    padding-bottom: 1rem;
+}
+
+.skill-logo {
+    width: 20%;
+    padding: 1rem;
+}
+
+
+
+
+
+
+/* Responsive for Small Device */
+@media screen and (max-width:576px) {
+
+    /* Nav Section */
+    nav {
+        display: none;
+    }
+
+    .trm-flex {
+        flex-direction: column-reverse;
+        padding: 2rem;
+    }
+
+    .trm-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .trm-bg-image {
+        height: 100%;
+    }
+
+    .container-about {
+        width: 100%;
+    }
+
+    /* Banner */
+    .trm-main-title {
+        line-height: 4.5rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .trm-sub-title {
+        text-align: center;
+    }
+
+    .hr-1 {
+        display: none;
+    }
+
+    /* About Section */
+    .container-about {
+        background-image: none;
+        padding-top: 2rem;
+    }
+
+    .card-item-grid {}
+
+    .card-item-grid:hover {
+        rotate: 0deg;
+        padding-top: 4rem;
+    }
+
+    /* Skills Styles */
+    .skill-con {
+        height: auto;
+        width: 80%;
+        padding-top: 0rem;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+
+}
+
+.hide {
+    display: none;
+}
