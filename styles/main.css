@@ -373,7 +373,7 @@ footer .footer-button{
 }
 
 /* Responsive Medium Device */
-@media screen and (min-width: 820px) and (max-width: 1180px) {
+@media screen and (min-width: 577px) and (max-width: 1180px) {
     .skills {
         display: grid;
         grid-template-columns: repeat(2, 1fr);    
@@ -390,6 +390,11 @@ footer .footer-button{
         gap: 5rem;
     }
 
+    .trm-img {
+        padding-top: 5rem;
+        height: 90%;
+    }
+
     .trm-bg-image {
         height: 130vh;
     }
@@ -402,17 +407,11 @@ footer .footer-button{
 
 
     footer{
-        padding-top: 10rem;
-    }
-    
-}
-
-@media screen and (min-width: 820px) and (max-width: 1180px) {
-    footer{
         padding-top: 50rem;
     }
     
 }
+
 
 .hide {
     display: none;
