@@ -274,6 +274,13 @@ nav {
     padding: 1rem;
 }
 
+/* Footer Styles */
+footer{
+    background-color: #f1fdf1;
+    text-align: center;
+    padding: 3rem;
+    margin: 1rem;
+}
 
 
 
