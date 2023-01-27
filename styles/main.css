@@ -5,6 +5,10 @@
     margin: 0 0 0 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root {
     --primary-font: 'Montserrat';
     --primary-color: rgb(196, 196, 196);
@@ -114,12 +118,15 @@ nav {
 .hr-1 {
     border: 1px solid var(--primary-color);
     margin-top: -5px;
+    display: none;
 }
 
 .hr {
     border: 1px solid var(--primary-color);
     margin-top: -5px;
 }
+
+
 
 .btn-body {
     padding-top: 1rem;
@@ -226,6 +233,7 @@ nav {
 .skill-con h1 {
     font-size: 45px;
     padding-bottom: 1rem;
+    color: var(--secondary-color);
 }
 
 .skill-con p{
