@@ -283,6 +283,10 @@ footer{
     margin: 1rem;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 
 
 
