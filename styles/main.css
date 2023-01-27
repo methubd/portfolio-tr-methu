@@ -373,21 +373,43 @@ footer .footer-button{
 }
 
 /* Responsive Medium Device */
-@media screen and (min-width: 577px) and (max-width: 1200px) {
+@media screen and (min-width: 820px) and (max-width: 1180px) {
     .skills {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);    
+        grid-template-columns: repeat(2, 1fr);    
     }
 
+    nav {
+        display: none;
+    }
+
+    .trm-flex {
+        flex-direction: column-reverse;
+        padding: 2rem;
+        height: 100vh;
+        gap: 5rem;
+    }
+
+    .trm-bg-image {
+        height: 130vh;
+    }
+    /* about section */
+    .container-about {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+
     footer{
-        padding-top: 20rem;
+        padding-top: 10rem;
     }
     
 }
 
-@media screen and (max-width: 2000px) {
-    hr{
-        display: none;
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    footer{
+        padding-top: 50rem;
     }
     
 }
