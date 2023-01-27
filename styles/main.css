@@ -344,6 +344,7 @@ footer .footer-button{
     .container-about {
         background-image: none;
         padding-top: 2rem;
+        height: auto;
     }
 
     .card-item-grid {}
