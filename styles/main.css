@@ -12,9 +12,9 @@ html {
 :root {
     --primary-font: 'Montserrat';
     --primary-color: rgb(196, 196, 196);
-    --title-color: rgb(3, 194, 48);
+    --title-color: rgb(2, 91, 143);
     --secondary-color: rgb(63, 63, 63);
-    --web-title-color: rgb(28, 228, 38);
+    --web-title-color: rgb(90, 0, 0);
 }
 
 body {
@@ -151,7 +151,7 @@ nav {
     padding-top: 10rem;
     /* background-color: antiquewhite; */
     /* background-image: url(/images/background-2.jpg); */
-    background-color: #f1fdf1;
+    background-color: #eeeeee;
     background-size: cover;
     object-fit: fill;
 
@@ -167,7 +167,7 @@ nav {
 }
 
 .card-item-grid {
-    background-color: rgb(241, 241, 241);
+    background-color: white;
     padding: 50px 60px;
     width: 16rem;
     height: 30rem;
@@ -179,7 +179,7 @@ nav {
 }
 
 .card-item-grid:hover {
-    background-color: rgb(230, 235, 230);
+    background-color: white;
     color: rgb(49, 49, 49);
     rotate: -1deg;
     border: 1px solid var(--title-color);
@@ -277,10 +277,11 @@ nav {
 
 /* Footer Styles */
 footer{
-    background-color: #f1fdf1;
+    background-color: #4c4c4c;
     text-align: center;
-    padding: 3rem;
-    margin: 1rem;
+    padding: 8rem 5rem;
+    margin-top: 5rem;
+    color: white;
 }
 
 footer a{
@@ -294,6 +295,10 @@ footer .footer-button{
 
 .footer-email{
     padding-top: 1rem;
+}
+.footer-button a{
+    border: 1px solid white;
+    color: white;
 }
 
 
@@ -407,7 +412,7 @@ footer .footer-button{
 
 
     footer{
-        padding-top: 50rem;
+        margin-top: 45rem;
     }
     
 }
