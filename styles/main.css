@@ -12,7 +12,7 @@ html {
 :root {
     --primary-font: 'Montserrat';
     --primary-color: rgb(196, 196, 196);
-    --title-color: rgb(14, 173, 0);
+    --title-color: rgba(85, 84, 84, 0.801);
     --secondary-color: rgb(63, 63, 63);
     --web-title-color: rgb(14, 173, 0);
 }
@@ -113,6 +113,7 @@ nav {
 
 .trm-designations a {
     text-decoration: none;
+    margin: auto;
 }
 
 .hr-1 {
@@ -422,5 +423,31 @@ footer .footer-button{
 
 
 .hide {
+    display: none;
+}
+
+
+/* Extra designs */
+
+/* Button in Banner */
+
+.btn-title{
+    padding: 10px 3rem;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    color: rgb(136, 136, 136);
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font: var(--primary-font);
+}
+.btn-title:hover{
+    background-color: var(--title-color);
+    color: white;
+}
+
+#linkedin{
     display: none;
 }
