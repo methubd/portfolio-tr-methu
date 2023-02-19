@@ -12,9 +12,9 @@ html {
 :root {
     --primary-font: 'Montserrat';
     --primary-color: rgb(196, 196, 196);
-    --title-color: rgb(2, 91, 143);
+    --title-color: rgb(14, 173, 0);
     --secondary-color: rgb(63, 63, 63);
-    --web-title-color: rgb(90, 0, 0);
+    --web-title-color: rgb(14, 173, 0);
 }
 
 body {
