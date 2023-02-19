@@ -4,7 +4,7 @@ document.getElementById('chat').addEventListener('click', function(){
     mainTitle.style.display = 'inline-block';
     emailMe.style.display = 'block'
     const chatBtn = document.getElementById('chat');
-    chatBtn.innerText = 'Better way is - >'
+    chatBtn.innerText = 'Best way is - >'
 })
 
 

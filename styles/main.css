@@ -12,7 +12,7 @@ html {
 :root {
     --primary-font: 'Montserrat';
     --primary-color: rgb(196, 196, 196);
-    --title-color: #EA4335;
+    --title-color: #6b6a6a;
     --secondary-color: rgb(63, 63, 63);
     --web-title-color: #34A853;
 }
@@ -325,7 +325,7 @@ footer .footer-button {
     }
 
     .trm-bg-image {
-        height: 62rem;
+        height: 70rem;
     }
 
     .container-about {
@@ -468,7 +468,7 @@ footer .footer-button {
 .message-box {
     color: var(--secondary-color);
     font: var(--primary-font);
-    padding-top: 1rem;
+    padding-top: 10px;
     display: none;
 }
 
@@ -490,6 +490,11 @@ footer .footer-button {
 }
 
 .linkedin-logo{
+    width: 12px;
+    text-align: center;
+}
+
+.logo-gmail{
     width: 12px;
     text-align: center;
 }
