@@ -308,7 +308,6 @@ footer .footer-button {
 
 /* Responsive for Small Device */
 @media screen and (max-width:570px) {
-
     /* Nav Section */
     nav {
         display: none;
@@ -486,6 +485,7 @@ footer .footer-button {
 
 .container-lets-chat {
     position: absolute;
+    /* right: 120px; */
     /* background-color: #34A853; */
 }
 
